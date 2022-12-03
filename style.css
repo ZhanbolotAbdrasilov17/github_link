@@ -1,0 +1,32 @@
+body{
+    background: #2E4158;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 431px;
+    height: 155px;
+    background: linear-gradient(180deg, #FF8DF4 0%, #9640DA 100%);
+    border: 5px solid #000000;
+    border-radius: 20px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+    
+}
+
+button:hover {
+	transform: scale(0.98);
+    box-shadow: 0px 4px 40px rgba(116, 124, 153, 0.74);
+}
